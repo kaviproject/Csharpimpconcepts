@@ -1,6 +1,4 @@
-# Csharp concepts
-C# important concepts
-
+# C# concepts
 LINQ TO SQL CONCEPTS
 ENUM
 
@@ -23,3 +21,8 @@ open the dbml file and drag drop from the left to right.
   4. it will generate the script
   5. SEED method used to deploy the static table
   6. Transform we can use precompiler and postcompiler
+  
+ # Rules engine
+  1. Drools tool 
+  2. ESB with .NET tools
+  3. Nrules nuget packages
