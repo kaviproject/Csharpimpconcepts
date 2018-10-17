@@ -39,7 +39,11 @@ open the dbml file and drag drop from the left to right.
  4. SIGNALIR used to sync the data between the 2 tabs.
  
  # Life cycle to display the data on the UI
- 
+  Integrate the STOREPROC using LINQ TO SQL;
+  In the repository folder get the values and assign to the model;
+  Create the properties in the model;
+  In the controller call the repository integration method;
+  Access the properties in the view.
  
 # Telerik Grid related 
 Refresh is not working?
