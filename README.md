@@ -40,3 +40,13 @@ open the dbml file and drag drop from the left to right.
  
  # Life cycle to display the data on the UI
  
+ 
+# Telerik Grid related 
+Refresh is not working?
+Sorting is not working?
+1. Add clientTemplate 
+2. Add grid action in the controller
+3. add the clientevent then it will call the grid action in the controller.
+4. refesh will also work after integrating the clienttemplate and sorting..
+Here is the URL:
+https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/webservice-binding/client-binding
