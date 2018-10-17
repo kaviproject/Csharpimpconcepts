@@ -54,3 +54,7 @@ Sorting is not working?
 4. refesh will also work after integrating the clienttemplate and sorting..
 Here is the URL:
 https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/webservice-binding/client-binding
+
+
+TODO
+http://dotnetpattern.com/csharp-versions-features
