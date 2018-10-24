@@ -105,3 +105,14 @@ return this.HourlyPay*this.TotalHoursWorked;
 }
 }
 }
+#Interface
+
+we can create interface with the keyword .Just like classes interfaces also contains properties,methods,delegates and events but only declarations and no implementations.
+
+Interface members are public by default and they do not allow explicit access modifiers.
+
+Interface cannot contain fields.
+
+If a class or struct inherits from an interface,it must provide implementation for all inteface members otherwise it will get the complie eroor,
+
+
