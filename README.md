@@ -58,3 +58,16 @@ https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/underst
 
 TODO
 http://dotnetpattern.com/csharp-versions-features
+
+# C# 2.0 Features
+# Generics
+Generics are extensively used by collection classes availible in system.collection.namespace.generics
+we have requirment to compare the 2 values either string or integer. C# is strongly typed so we have to give the data type.
+we can use object type to compare 2 data type values using object type. >NET directly or indirectl calls the object type to campare the values. At that timeperformance will decrease because of boxing and unboxing.
+
+Generic syantax <T> -->T means is type(we can give any name to indicate the generics)
+  
+  we can use Classes,interfaces, delegates and collections...
+  
+  
+
