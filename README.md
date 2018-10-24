@@ -69,7 +69,8 @@ Generic syantax <T> -->T means is type(we can give any name to indicate the gene
   
   we can use Classes,interfaces, delegates and collections...
   
- #where can we use abstract classes and interface classes..
+ # where can we use abstract classes and interface classes..
+ Abstarct class no need to be instantiated..
  we have requirment to implement public employee class and private employee class..
  But boh have some common properties like id,firstname and lastname ..
  In yhis case better to use one common method to implement the functionality..to avoid duplicate code.. in the future if we want to add middle name we have to add in the 2 plavess(fulltime and contract)
@@ -107,12 +108,17 @@ return this.HourlyPay*this.TotalHoursWorked;
 }
 #Interface
 
+
 we can create interface with the keyword .Just like classes interfaces also contains properties,methods,delegates and events but only declarations and no implementations.
 
 Interface members are public by default and they do not allow explicit access modifiers.
 
 Interface cannot contain fields.
 
-If a class or struct inherits from an interface,it must provide implementation for all inteface members otherwise it will get the complie eroor,
+If a class or struct inherits from an interface,it must provide implementation for all inteface members otherwise it will get the complie error.
+
+**** click on the interface its automatically create the implemenatation method.
+****Explicit interface method:
+
 
 
