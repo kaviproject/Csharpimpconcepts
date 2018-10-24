@@ -120,5 +120,10 @@ If a class or struct inherits from an interface,it must provide implementation f
 **** click on the interface its automatically create the implemenatation method.
 ****Explicit interface method:
 
+# Difference between Abstract class and Interface?
 
-
+Abstract class can have implementations for some of its members(Methods),but the interface cant have implementaion for any of its members.
+interface can have fields whereas abstarct class can have the fields.
+An interface can inherit from another interface only and cannot inherit from an abstarct class, where as an abstarct class can inherit abstract class and interface.
+A class can inherit from multiple interfaces at the same time, whereas class cannot inherit from multiple classes at the same time.
+ABstarct classe members can have access modifiers where as interface members cannot have access modifiers by default its public.
