@@ -69,5 +69,39 @@ Generic syantax <T> -->T means is type(we can give any name to indicate the gene
   
   we can use Classes,interfaces, delegates and collections...
   
-  
-
+ #where can we use abstract classes and interface classes..
+ we have requirment to implement public employee class and private employee class..
+ But boh have some common properties like id,firstname and lastname ..
+ In yhis case better to use one common method to implement the functionality..to avoid duplicate code.. in the future if we want to add middle name we have to add in the 2 plavess(fulltime and contract)
+ 
+ we can implemnt abstract class like below ..
+ 
+ public abstract class BaseEmployee{
+ public int Id{get;set;
+ public string Firstname{get;set;}
+ public string Lastname{get;set;}
+ public string Fullname()
+ {
+ return this.firstName+this.LastName;
+ }
+ 
+ pvblic abstract getMonthlySalary()
+ ;
+ }
+public class FullTimeEmployee:BaseEmployee{
+public intAnnualSalary{get;set;}
+public override int GetMontlySalary()
+{
+return this.AnnualSalary/12;
+}
+}
+public class ContractEmployee:BaseEmployee
+{
+public int HourlyPay{get;set;}
+public int TotalHoursWorked{get;set;}
+public override int GetMontlySalary()
+{
+return this.HourlyPay*this.TotalHoursWorked;
+}
+}
+}
