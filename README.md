@@ -52,12 +52,13 @@ Sorting is not working?
 2. Add grid action in the controller
 3. add the clientevent then it will call the grid action in the controller.
 4. refesh will also work after integrating the clienttemplate and sorting..
-Here is the URL:
+# Here is the URL:
 https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/understanding-data-binding/webservice-binding/client-binding
 
 
-TODO
+# TODO
 http://dotnetpattern.com/csharp-versions-features
+http://venkatcsharpinterview.blogspot.com/2009/01/c-interview-questions.html
 
 # C# 2.0 Features
 # Generics
@@ -106,9 +107,7 @@ return this.HourlyPay*this.TotalHoursWorked;
 }
 }
 }
-#Interface
-
-
+# Interface concepts
 we can create interface with the keyword .Just like classes interfaces also contains properties,methods,delegates and events but only declarations and no implementations.
 
 Interface members are public by default and they do not allow explicit access modifiers.
