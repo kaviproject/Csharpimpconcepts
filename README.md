@@ -126,3 +126,9 @@ interface can have fields whereas abstarct class can have the fields.
 An interface can inherit from another interface only and cannot inherit from an abstarct class, where as an abstarct class can inherit abstract class and interface.
 A class can inherit from multiple interfaces at the same time, whereas class cannot inherit from multiple classes at the same time.
 ABstarct classe members can have access modifiers where as interface members cannot have access modifiers by default its public.
+
+# SQL BASIC
+Open the store proc with command line:
+sp_helptext procedurename
+Exec command 
+For executing the script we have to remove the header part and replce the declare and run each statement
