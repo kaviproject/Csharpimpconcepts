@@ -132,3 +132,8 @@ Open the store proc with command line:
 sp_helptext procedurename
 Exec command 
 For executing the script we have to remove the header part and replce the declare and run each statement
+
+
+https://www.infoq.com/presentations/code-documentation
+SWAGGER
+RESHARPER
