@@ -137,3 +137,6 @@ For executing the script we have to remove the header part and replce the declar
 https://www.infoq.com/presentations/code-documentation
 SWAGGER
 RESHARPER
+
+# GOOD WEBSITE FOR WRITING TECHNICAL DOCUMENTS
+https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e
