@@ -9,3 +9,5 @@ Where is the Middleware?
 startup.cs
 
 Kestrel webserver using to host on multiple environments.
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-2.2
