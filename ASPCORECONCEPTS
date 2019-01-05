@@ -11,3 +11,21 @@ startup.cs
 Kestrel webserver using to host on multiple environments.
 
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-2.2
+
+startup.cs consist of 2 methods..
+1.configureservices(will have mvc, identity)
+2.configure (all the middleware components)
+
+
+service is a component that is availible for common usage..
+It will use dependency Injection concepts..
+
+why we need inversion control pattern in C#?
+
+High level module does not depends on low level modules.
+
+aspcore will use dependencyInjection pattern ..
+
+it will register the services and instance that one when it is needed..
+
+
