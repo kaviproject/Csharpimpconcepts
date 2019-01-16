@@ -138,6 +138,24 @@ https://www.infoq.com/presentations/code-documentation
 SWAGGER
 RESHARPER
 
+find the table name based on column name
+
+SELECT c.name AS ColName, t.name AS TableName
+FROM sys.columns c
+    JOIN sys.tables t ON c.object_id = t.object_id
+WHERE c.name LIKE '%%';
+
+SELECT c.name AS ColName, t.name AS TableName
+FROM sys.columns c
+    JOIN sys.tables t ON c.object_id = t.object_id
+WHERE c.name='WINofEssentialPerson';
+
+Get table schema for datatype 
+select COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, 
+       NUMERIC_PRECISION, DATETIME_PRECISION, 
+       IS_NULLABLE 
+from INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME=''
 # GOOD WEBSITE FOR WRITING TECHNICAL DOCUMENTS
 https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e
 
