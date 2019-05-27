@@ -162,3 +162,8 @@ https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e
 #React Tutorial
 
 https://flaviocopes.com/page/ebooks/
+
+
+# Important URL for WEB DEVLOPMENT
+http://corningjobs.corning.com
+
