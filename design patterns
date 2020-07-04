@@ -31,6 +31,9 @@ Dependency Inversion principle.
 Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
 
-
+C# does not support multiple inheritance 
+Adpater pattern 2 types 
+object and class type 
+we do not use class type because it requires multiple inheritance
 
 
