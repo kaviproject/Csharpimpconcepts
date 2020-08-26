@@ -5,3 +5,12 @@ What kind of extensions used in react?
 React lift cycle managment?
 storybooks?
 React contect API over redux managment?
+
+
+Before any requirement Need to think below requirements
+
+should be quick to implement
+	should interact easily with json or csv data
+	should probably be less than $100, but free would be best
+	should tend towards technologies we understand / currently use 
+	should leverage client-side frameworks (jQuery, Vue, React, etc.)
