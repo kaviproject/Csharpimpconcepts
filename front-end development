@@ -14,3 +14,9 @@ should be quick to implement
 	should probably be less than $100, but free would be best
 	should tend towards technologies we understand / currently use 
 	should leverage client-side frameworks (jQuery, Vue, React, etc.)
+
+
+# tag -->localelements
+
+www.angular.io/api
+https://stackblitz.com/edit/angularjs-sanitize?file=portal%2Fportal.template.html
